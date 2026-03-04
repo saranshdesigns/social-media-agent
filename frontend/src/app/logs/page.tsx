@@ -146,7 +146,7 @@ export default function LogsPage() {
                     </span>
                   </td>
                   <td className="px-4 py-2.5 text-gray-500 text-xs whitespace-nowrap">
-                    {new Date(log.logged_at).toLocaleString("en-IN", {
+                    {new Date(log.logged_at + "Z").toLocaleString("en-IN", {
                       month: "short",
                       day: "numeric",
                       hour: "2-digit",

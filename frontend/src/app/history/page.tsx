@@ -107,7 +107,7 @@ export default function HistoryPage() {
                       )}
                     </div>
                     <span className="text-xs text-gray-600 shrink-0">
-                      {new Date(img.posted_at).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })}
+                      {new Date(img.posted_at + "Z").toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })}
                     </span>
                   </div>
 
