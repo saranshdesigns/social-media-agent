@@ -1,0 +1,34 @@
+# Environment
+.env
+credentials.json
+token.json
+
+# Database
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Temp uploaded images
+backend/temp/*
+!backend/temp/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+.next/
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
